@@ -1,0 +1,16 @@
+#Terraform
+.terrafrom/
+*.tfstates
+*.tfstates.*
+.terraform.lock.hcl
+
+#terraform variables containing secrets 
+terraform.tfvars
+*.tfvars
+
+#SSH private key
+*.pem
+
+#crash logs
+crash.log
+crash.*.log
